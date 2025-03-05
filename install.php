@@ -1,5 +1,7 @@
 <?php
 
+// install.php
+
 // Set variables for our request
 $shop = $_GET['shop'];
 $api_key = "847d46728156533bdaa28e6fc3dcc0ed";
