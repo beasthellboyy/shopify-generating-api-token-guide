@@ -1,6 +1,8 @@
-// functions.php code for api-token-guide
+
 
 <?php
+
+// functions.php code for api-token-guide
 
 function shopify_call($token, $shop, $api_endpoint, $query = array(), $method = 'GET', $request_headers = array()) {
     
