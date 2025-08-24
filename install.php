@@ -1,6 +1,6 @@
 <?php
 
-// install.php
+// install.php file
 
 // Set variables for our request
 $shop = $_GET['shop'];
