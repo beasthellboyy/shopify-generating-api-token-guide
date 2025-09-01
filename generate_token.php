@@ -17,7 +17,7 @@ $computed_hmac = hash_hmac('sha256', http_build_query($params), $shared_secret);
 // Use hmac data to check that the response is from Shopify or not
 if (hash_equals($hmac, $computed_hmac)) {
 
-	// Set variables for our request
+	// Set variables for our request accordingly
 	$query = array(
 		"client_id" => $api_key, // Your API key
 		"client_secret" => $shared_secret, // Your app credentials (secret key)
