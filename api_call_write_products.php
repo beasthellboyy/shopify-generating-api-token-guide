@@ -1,3 +1,5 @@
+<!--- call and write products with this code --->
+
 <?php
 
 // Get our helper functions
